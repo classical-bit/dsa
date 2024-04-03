@@ -4,7 +4,7 @@ The rate at which the time, required to run the code, changes with respect to th
 # Fibonacci Series
 The n-th term of Fibonacci series F(n), where F(n) is a function is calculated using the following formula -
 F(n) = F(n-1) + F(n-2)
-where F(1) = 1, F(2) = 1
+where F(0) = 0, F(1) = 1, F(2) = 1
 
 # Prime Number
 A number which has only two factors, 1 and itself.
@@ -29,4 +29,12 @@ Time Complexity: O(sqrt(n))
     this is repeated substraction which is division. we can improve it by:
     gcd(a,b) = gcd(a%b, b) ; where a > b ;
 
-    Time Complexity: O(log-base-phi(min(a,b)))
+    Time Complexity: O(log-phi(min(a,b)))
+
+# Count digits in a number
+log-10(number) + 1
+
+# Factorial
+n! = n * (n-1) * (n-2) ... * 1
+1! = 1
+0! = 1
