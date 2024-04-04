@@ -49,12 +49,28 @@ n! = n * (n-1) * (n-2) ... * 1
 - Divides the input array in two parts: sorted and unsorted.
 - It repeatedly selects the minimum element from the unsorted part and moves it to the beginning of the sorted part.
 
-for (i = 0; i < n - 2; i++) {
-    for (j = i+1; j < n - 1; j++ ) {
+```
+for (i = 0; i < n - 1; i++) {
+    for (j = i+1; j < n; j++ ) {
         if (arr[j] < arr[i]) {
             swap(arr[j], arr[j])
         }
     }
 }
-
+```
 - Time complexity in all cases - O(n^2)
+
+## Bubble Sort
+- Repeatedly steps through the array, compares adjacent elements, swaps them if they are in wrong order.
+
+```
+for (i = n - 1; i >= 0; i--) {
+	for (j = 0; j < i; j++) {
+		if (arr[j + 1] < arr[j]) {
+			temp = arr[j]
+			arr[j] = arr[j + 1]
+			arr[j + 1] = temp
+		}
+	}
+}
+```
