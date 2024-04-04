@@ -38,3 +38,23 @@ log-10(number) + 1
 n! = n * (n-1) * (n-2) ... * 1
 1! = 1
 0! = 1
+
+# Hashing
+- Division Method
+- Folding Method
+- Mid Square Method
+
+# Sorting
+## Selection Sort
+- Divides the input array in two parts: sorted and unsorted.
+- It repeatedly selects the minimum element from the unsorted part and moves it to the beginning of the sorted part.
+
+for (i = 0; i < n - 2; i++) {
+    for (j = i+1; j < n - 1; j++ ) {
+        if (arr[j] < arr[i]) {
+            swap(arr[j], arr[j])
+        }
+    }
+}
+
+- Time complexity in all cases - O(n^2)
