@@ -51,7 +51,7 @@ n! = n * (n-1) * (n-2) ... * 1
 
 ```
 for (i = 0; i < n - 1; i++) {
-    for (j = i+1; j < n; j++ ) {
+	for (j = i+1; j < n; j++ ) {
         if (arr[j] < arr[i]) {
             swap(arr[j], arr[j])
         }
@@ -74,3 +74,4 @@ for (i = n - 1; i >= 0; i--) {
 	}
 }
 ```
+- Time complexity in worst and average cases - O(n^2)
