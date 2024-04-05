@@ -76,8 +76,24 @@ for (i = n - 1; i >= 0; i--) {
 			temp = arr[j]
 			arr[j] = arr[j + 1]
 			arr[j + 1] = temp
-		}
+
 	}
 }
 ```
 - Time complexity in worst and average cases - O(n^2)
+
+## Insertion Sort
+- Buils the sorted list one item at a time, by repeatedly taking the next item and placing it in it's correct order.
+
+```
+for (int i = 1; i < n; i++) {
+    int j = i;
+    while (j > 0 && arr[j - 1] > arr[j]) {
+        int temp = arr[j];
+        arr[j] = arr[j - 1];
+        arr[j - 1] = temp;
+        j--;
+    }
+}
+```
+- Time complexity - O(n^2) in worst cases, but can be efficient for small data sets
