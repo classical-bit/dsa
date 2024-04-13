@@ -1,18 +1,3 @@
-
-
-// for (const h of )
-//     let l, r = 1;
-// let i = 0
-// while (l < 5 && r < 5) {
-//     let maxArea = 0;
-//     if (height[r] == 0) {
-//         l++;
-//     }
-//     if (height[r] >= height[l]) {
-
-//     }
-// }
-
 function top(stack) {
     return stack[stack.length - 1];
 }
@@ -21,79 +6,76 @@ function isempty(arr) {
     return arr.length < 1;
 }
 
-//    ||
-//    ||                ||
-//    ||                ||
-//    ||                ||
-//    || ||          || ||
-//    || ||          || ||       ||
-// || || ||          || || ||    ||
-// || || ||       || || || || || ||
-// || || ||    || || || || || || ||
-// || || || || || || || || || || || ||
-// nge solution: [10, -1, 9, 2, 3, 6, 9, -1, 5, 5, -1]
-// pge solution: [-1, -1, 10, 6, 6, 6, 10, 10, 9, 4, 9, 5]
+const arr = [
+    [1, 0, 0, 0, 0],
+    [1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1],
+    [0, 1, 1, 0, 1]
+];
 
-function nge() {
-    const arr = [4, 10, 6, 1, 2, 3, 6, 9, 4, 3, 5, 1];
-    console.log("arr:", JSON.stringify(arr));
-
+function nsbi(ar) {
     const st = [];
-    const nge = [];
-    for (let i = arr.length - 1; i >= 0; i--) {
-        console.log(`${i}th`, "element", `(${arr[i]})`, "in arr.")
-        while (!isempty(st) && top(st) <= arr[i]) {
-            console.log("stack not empty, and stack top:", top(st), `(${arr[top(st)]})`, "is less than: ", arr[i]);
-            console.log("stack", JSON.stringify(st), "pop!!", top(st), `(${arr[top(st)]})`);
+    const nsb = [];
+    for (let i = ar.length - 1; i >= 0; i--) {
+        while (!isempty(st) && ar[top(st)] >= ar[i])
             st.pop();
-        }
 
-        if (isempty(st)) {
-            console.log("stack is empty, next greater element of", arr[i], "is", -1);
-            nge[i] = -1;
-        }
-        else {
-            console.log("stack not empty, next greater element of", arr[i], "is", top(st), `(${arr[top(st)]})`);
-            nge[i] = top(st);
-        }
+        if (isempty(st)) nsb[i] = ar.length - 1;
+        else nsb[i] = top(st) - 1;
 
-        console.log("stack", JSON.stringify(st), "push!!", i, `(${arr[i]})`);
-        st.push(arr[i]);
+        st.push(i);
     }
-
-    console.log(JSON.stringify(st))
-    console.log(JSON.stringify(nge))
+    return nsb;
 }
 
-function pge() {
-    const arr = [4, 10, 6, 1, 2, 3, 6, 9, 4, 3, 5, 1];
-    console.log("arr:", JSON.stringify(arr));
-
+function psbi(ar) {
     const st = [];
-    const nge = [];
-    for (let i = arr.length - 1; i >= 0; i--) {
-        console.log(`${i}th`, "element", `(${arr[i]})`, "in arr.")
-        while (!isempty(st) && top(st) <= arr[i]) {
-            console.log("stack not empty, and stack top:", top(st), `(${arr[top(st)]})`, "is less than: ", arr[i]);
-            console.log("stack", JSON.stringify(st), "pop!!", top(st), `(${arr[top(st)]})`);
+    const psb = [];
+    for (let i = 0; i < ar.length; i++) {
+        while (!isempty(st) && ar[top(st)] >= ar[i])
             st.pop();
-        }
 
-        if (isempty(st)) {
-            console.log("stack is empty, next greater element of", arr[i], "is", -1);
-            nge[i] = -1;
-        }
-        else {
-            console.log("stack not empty, next greater element of", arr[i], "is", top(st), `(${arr[top(st)]})`);
-            nge[i] = top(st);
-        }
+        if (isempty(st)) psb[i] = 0;
+        else psb[i] = top(st) + 1;
 
-        console.log("stack", JSON.stringify(st), "push!!", i, `(${arr[i]})`);
-        st.push(arr[i]);
+        st.push(i);
     }
-
-    console.log(JSON.stringify(st))
-    console.log(JSON.stringify(nge))
+    return psb;
 }
 
-nge()
+function maxRectAreaInHist(ar) {
+    const nsb = nsbi(ar);
+    const psb = psbi(ar);
+    let maxRectHistArea = 0;
+    for (let i = 0; i < ar.length; i++) {
+        area = (nsb[i] - psb[i] + 1) * ar[i];
+        if (area > maxRectHistArea) {
+            maxRectHistArea = area;
+        }
+    }
+    return maxRectHistArea;
+}
+
+let maxRectArea = 0;
+const sumArr = [];
+let k = 0;
+while (k < arr.length) {
+    for (let i = 0; i < arr[k].length; i++) {
+        if (arr[k][i] === 0) {
+            sumArr[i] = 0;
+        } else {
+            if (!sumArr[i]) sumArr[i] = 1;
+            else sumArr[i] = sumArr[i] + 1;
+        }
+    }
+
+    const maxRectHistArea = maxRectAreaInHist(sumArr);
+
+    if (maxRectHistArea > maxRectArea) {
+        maxRectArea = maxRectHistArea;
+    }
+    k++;
+}
+
+console.log(maxRectArea);
+
