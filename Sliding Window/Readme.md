@@ -2,7 +2,7 @@
 
 ## Easy to Medium Difficulty
 
-1. [ ] **Maximum Sum Subarray of Size K:**
+1. [*] [**Maximum Sum Subarray of Size K:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/%20Maximum%20Sum%20Subarray%20of%20Size%20K)
     * Given an array of integers and a window size `k`, find the maximum sum of any contiguous subarray of size `k`.
     * This is a fundamental sliding window problem.
 2. [ ] **Longest Substring with K Distinct Characters:**
@@ -27,6 +27,10 @@
     * Given an array of integers `nums`, there is a sliding window of size `k` which is moving from the very left of the array to the very right. You can only see the `k` numbers in the window. Each time the sliding window moves right by one position. Return the maximum of the sliding window.
 5. [ ] **Minimum Window Substring:**
     * Given two strings `s` and `t`, return the minimum window in `s` which will contain all the characters in `t`. If there is no such window, return the empty string "".
+
+## Why the Sliding Window Technique is Efficient:
+
+The sliding window technique is efficient because it avoids redundant calculations. Instead of recalculating the entire sum for each subarray, it reuses the sum from the previous subarray and only updates it by subtracting the element that is leaving the window and adding the element that is entering the window. This reduces the time complexity from O(n\*k) to O(n), where n is the length of the array.
 
 ## Tips for Practice
 

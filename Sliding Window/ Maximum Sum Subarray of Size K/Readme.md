@@ -54,6 +54,4 @@ Find the contiguous subarray (a sequence of adjacent elements) of a given array,
 * Slide Window: `[-4, -5]` Sum = `-9`
 * **Maximum Sum:** `-3`
 
-## Why the Sliding Window Technique is Efficient:
-
-The sliding window technique is efficient because it avoids redundant calculations. Instead of recalculating the entire sum for each subarray, it reuses the sum from the previous subarray and only updates it by subtracting the element that is leaving the window and adding the element that is entering the window. This reduces the time complexity from O(n\*k) to O(n), where n is the length of the array.
+## [Jump To Solutions :bowtie:](https://github.com/classical-bit/dsa/blob/main/Sliding%20Window/%20Maximum%20Sum%20Subarray%20of%20Size%20K/index.js)
