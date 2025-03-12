@@ -2,7 +2,7 @@
 
 ## Easy to Medium Difficulty
 
-1. [x] [**Maximum Sum Subarray of Size K:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/%20Maximum%20Sum%20Subarray%20of%20Size%20K)
+1. [x] [**Maximum Sum Subarray of Size K:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/Maximum%20Sum%20Subarray%20of%20Size%20K)
     * Given an array of integers and a window size `k`, find the maximum sum of any contiguous subarray of size `k`.
     * This is a fundamental sliding window problem.
 2. [ ] **Longest Substring with K Distinct Characters:**
