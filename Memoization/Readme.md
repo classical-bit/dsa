@@ -2,30 +2,30 @@
 
 ## Easy to Medium Difficulty
 
-1. **Fibonacci Number:**
+1. [ ] **Fibonacci Number:**
     * Calculate the nth Fibonacci number using both memoization and tabulation.
-2. **Climbing Stairs:**
+2. [ ] **Climbing Stairs:**
     * Find the number of distinct ways to climb `n` stairs using memoization and tabulation.
-3. **Coin Change:**
+3. [ ] **Coin Change:**
     * Determine the fewest number of coins needed to make up a given amount using memoization and tabulation.
-4. **Maximum Subarray:**
+4. [ ] **Maximum Subarray:**
     * Find the contiguous subarray with the largest sum using tabulation (Kadane's Algorithm can be considered a space-optimized tabulation).
 
 ## Medium to Hard Difficulty
 
-1. **Longest Common Subsequence (LCS):**
+1. [ ] **Longest Common Subsequence (LCS):**
     * Find the length of the longest common subsequence of two strings using memoization and tabulation.
-2. **Longest Increasing Subsequence (LIS):**
+2. [ ] **Longest Increasing Subsequence (LIS):**
     * Find the length of the longest increasing subsequence of an array using memoization and tabulation.
-3. **0/1 Knapsack Problem:**
+3. [ ] **0/1 Knapsack Problem:**
     * Solve the 0/1 knapsack problem using memoization and tabulation.
-4. **Unbounded Knapsack (Coin Change II):**
+4. [ ] **Unbounded Knapsack (Coin Change II):**
     * Find the number of combinations that make up a given amount using memoization and tabulation.
-5. **Edit Distance:**
+5. [ ] **Edit Distance:**
     * Find the minimum number of operations to convert one string to another using memoization and tabulation.
-6. **Word Break:**
+6. [ ] **Word Break:**
     * Determine if a string can be segmented into a space-separated sequence of dictionary words using memoization and tabulation.
-7. **Maximum Product Subarray:**
+7. [ ] **Maximum Product Subarray:**
     * Find the contiguous subarray with the largest product using tabulation.
 
 ## Tips for Practice
