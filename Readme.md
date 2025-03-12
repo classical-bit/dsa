@@ -2,15 +2,15 @@
 
 ## Core Patterns
 
-* **Sliding Window:**
+* [**Sliding Window:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window)
     * Used for problems involving finding subarrays or substrings that meet certain criteria.
     * It involves maintaining a "window" of elements and moving it through the data structure.
     * Useful for optimization, reducing time complexity.
-* **Two Pointers:**
+* [**Two Pointers:**](https://github.com/classical-bit/dsa/tree/main/Two%20Pointers)
     * Employs two pointers to traverse a data structure, often from opposite ends.
     * Effective for problems involving sorted arrays or linked lists, such as finding pairs or triplets.
     * Helps optimize solutions by reducing unnecessary iterations.
-* **Fast and Slow Pointers:**
+* [**Fast and Slow Pointers:**](https://github.com/classical-bit/dsa/tree/main/Two%20PointersFast%20and%20Slow%20Pointers)
     * Also known as the "Hare and Tortoise" algorithm.
     * Uses two pointers that move at different speeds.
     * Commonly used for detecting cycles in linked lists and finding the middle element.
