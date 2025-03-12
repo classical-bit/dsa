@@ -2,36 +2,36 @@
 
 ## Easy to Medium Difficulty (BFS & DFS)
 
-* **Binary Tree Level Order Traversal (BFS):**
+1. **Binary Tree Level Order Traversal (BFS):**
     * Given the `root` of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
-* **Binary Tree Inorder Traversal (DFS):**
+2. **Binary Tree Inorder Traversal (DFS):**
     * Given the `root` of a binary tree, return the inorder traversal of its nodes' values.
-* **Binary Tree Preorder Traversal (DFS):**
+3. **Binary Tree Preorder Traversal (DFS):**
     * Given the `root` of a binary tree, return the preorder traversal of its nodes' values.
-* **Binary Tree Postorder Traversal (DFS):**
+4. **Binary Tree Postorder Traversal (DFS):**
     * Given the `root` of a binary tree, return the postorder traversal of its nodes' values.
-* **Maximum Depth of Binary Tree (DFS):**
+5. **Maximum Depth of Binary Tree (DFS):**
     * Given the `root` of a binary tree, return its maximum depth.
-* **Same Tree (DFS):**
+6. **Same Tree (DFS):**
     * Given the roots of two binary trees `p` and `q`, write a function to check if they are the same.
-* **Symmetric Tree (DFS/BFS):**
+7. **Symmetric Tree (DFS/BFS):**
     * Given the `root` of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 
 ## Medium to Hard Difficulty (BFS & DFS)
 
-* **Binary Tree Zigzag Level Order Traversal (BFS):**
+1. **Binary Tree Zigzag Level Order Traversal (BFS):**
     * Given the `root` of a binary tree, return the zigzag level order traversal of its nodes' values. (i.e., from left to right, then right to left for the next level and alternate between).
-* **Binary Tree Right Side View (BFS/DFS):**
+2. **Binary Tree Right Side View (BFS/DFS):**
     * Given the `root` of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
-* **Binary Tree Vertical Order Traversal (BFS/DFS):**
+3. **Binary Tree Vertical Order Traversal (BFS/DFS):**
     * Given the `root` of a binary tree, return the vertical order traversal of its nodes' values.
-* **Path Sum (DFS):**
+4. **Path Sum (DFS):**
     * Given the `root` of a binary tree and an integer `targetSum`, return `true` if the tree has a root-to-leaf path such that adding up all the values along the path equals `targetSum`.
-* **Path Sum II (DFS):**
+5. **Path Sum II (DFS):**
     * Given the `root` of a binary tree and an integer `targetSum`, return *all root-to-leaf paths* where the sum of the node values in the path equals `targetSum`.
-* **Lowest Common Ancestor of a Binary Tree (DFS):**
+6. **Lowest Common Ancestor of a Binary Tree (DFS):**
     * Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
-* **Serialize and Deserialize Binary Tree (BFS/DFS):**
+7. **Serialize and Deserialize Binary Tree (BFS/DFS):**
     * Design an algorithm to serialize and deserialize a binary tree.
 
 ## Tips for Practice

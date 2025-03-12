@@ -2,30 +2,30 @@
 
 ## Easy to Medium Difficulty
 
-* **Meeting Rooms:**
+1. **Meeting Rooms:**
     * Given an array of meeting time intervals `intervals` where `intervals[i] = [starti, endi]`, determine if a person could attend all meetings.
-* **Merge Intervals:**
+2. **Merge Intervals:**
     * Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
 ## Medium to Hard Difficulty
 
-* **Meeting Rooms II:**
+1. **Meeting Rooms II:**
     * Given an array of meeting time intervals `intervals` where `intervals[i] = [starti, endi]`, return the minimum number of conference rooms required.
-* **Employee Free Time:**
+2. **Employee Free Time:**
     * We are given a list `schedule` of employees, which represents the working time for each employee.
     * Each employee has a list of non-overlapping `Intervals`, and these intervals are in sorted order.
     * Return a list of finite intervals representing the common free time for all employees.
-* **My Calendar I:**
+3. **My Calendar I:**
     * Implement a `MyCalendar` class to store your events. A new event can be added if adding the event will not cause double booking.
     * Your class will have the method, `book(int start, int end)`. Formally, this represents a booking on the half open interval `[start, end)`, which means the range `start <= x < end`.
     * Return `true` if the event can be added, else return `false` and do not add it.
-* **My Calendar II:**
+4. **My Calendar II:**
     * Implement a `MyCalendarTwo` class to store your events. A new event can be added if adding the event will not cause triple booking.
     * Your class will have the method `book(int start, int end)`. Formally, this represents a booking on the half open interval `[start, end)`, which means the range `start <= x < end`.
     * Return `true` if the event can be added, else return `false` and do not add it.
-* **Skyline Problem:**
+5. **Skyline Problem:**
     * A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Now suppose you are given the locations and height of all the buildings as shown on a cityscape photograph (Figure A), write a program to output the skyline formed by these buildings collectively (Figure B).
-* **Number of Airplanes in the Sky:**
+6. **Number of Airplanes in the Sky:**
     * Given an array of airplane's flight time intervals represented by start and end time `[[1, 10], [2, 3], [5, 8], [4, 7]]`, find the maximum number of airplanes within the sky at the same time.
 
 ## Tips for Practice

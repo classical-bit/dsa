@@ -2,24 +2,24 @@
 
 ## Easy to Medium Difficulty
 
-* **Merge k Sorted Lists:**
+1. **Merge k Sorted Lists:**
     * Given an array of `k` linked-lists `lists`, each linked-list is sorted in ascending order.
     * Merge all the linked-lists into one sorted linked-list and return it.
-* **Merge k Sorted Arrays:**
+2. **Merge k Sorted Arrays:**
     * Given a 2D array of `k` sorted arrays, merge them into one sorted array.
 
 ## Medium to Hard Difficulty
 
-* **Merge k Sorted Streams:**
+1. **Merge k Sorted Streams:**
     * Given `k` sorted streams, merge them into one sorted stream. This is a variation where the entire arrays might not be loaded into memory.
-* **Find K Pairs with Smallest Sums:**
+2. **Find K Pairs with Smallest Sums:**
     * You are given two integer arrays `nums1` and `nums2` sorted in ascending order and an integer `k`.
     * Define a pair `(u, v)` which consists of one element from the first array and one element from the second array.
     * Find `k` pairs `(u1, v1), (u2, v2), ..., (uk, vk)` with the smallest sums.
-* **Kth Smallest Element in a Sorted Matrix:**
+3. **Kth Smallest Element in a Sorted Matrix:**
     * Given an `n x n` matrix where each of the rows and columns are sorted in ascending order, return the `k`th smallest element in the matrix.
     * Note that it is the `k`th smallest element in the sorted order, not the `k`th distinct element.
-* **Super Ugly Number:**
+4. **Super Ugly Number:**
     * Write a program to find the `n`th super ugly number.
     * Super ugly numbers are positive numbers whose all prime factors are in the given prime list `primes`.
 

@@ -2,31 +2,31 @@
 
 ## Easy to Medium Difficulty
 
-* **Implement Trie (Prefix Tree):**
+1. **Implement Trie (Prefix Tree):**
     * Implement a trie with `insert`, `search`, and `startsWith` methods.
-* **Add and Search Word - Data structure design:**
+2. **Add and Search Word - Data structure design:**
     * Design a data structure that supports adding new words and finding if a string matches any previously added string.
     * Implement the `WordDictionary` class:
         * `WordDictionary()` Initializes the object.
         * `void addWord(word)` Adds `word` to the data structure, it can be matched later.
         * `bool search(word)` Returns `true` if there is any string in the data structure that matches `word` or `false` otherwise. `word` may contain dots `'.'` where dots can be matched with any letter.
-* **Longest Word in Dictionary:**
+3. **Longest Word in Dictionary:**
     * Given an array of strings `words` representing an English Dictionary, return the longest word in `words` that can be built one character at a time by other words in `words`.
     * If there is more than one possible answer, return the longest word with the smallest lexicographical order.
     * If there is no answer, return an empty string.
 
 ## Medium to Hard Difficulty
 
-* **Word Search II:**
+1. **Word Search II:**
     * Given an `m x n` board of characters and a list of strings `words`, return *all words on the board*.
     * The words can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring.
     * The same letter cell may not be used more than once in a word.
-* **Replace Words:**
+2. **Replace Words:**
     * In English, we have a concept called root, which can be followed by some other words to form another longer word -- let's call this word successor.
     * For example, the root `an`, followed by the successor `other`, can form a new word `another`.
     * Given a dictionary consisting of many roots and a sentence consisting of words separated by spaces, replace all the successors in the sentence with the root forming it. If a successor can be formed by more than one root, replace it with the root with the shortest length.
     * Return the sentence after the replacement.
-* **Map Sum Pairs:**
+3. **Map Sum Pairs:**
     * Design a map that allows you to do the following:
         * Maps strings to integer values.
         * Returns the sum of values that have a string key with a prefix equal to a given string.

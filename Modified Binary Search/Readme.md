@@ -2,30 +2,30 @@
 
 ## Easy to Medium Difficulty
 
-* **Binary Search:**
+1. **Binary Search:**
     * Given a sorted (in ascending order) integer array `nums` of `n` elements and a `target` value, write a function to search `target` in `nums`. If `target` exists, then return its index otherwise return `-1`.
-* **Ceiling of a Number:**
+2. **Ceiling of a Number:**
     * Given a sorted array of numbers and a target key, find the ceiling of the key in the array. The ceiling of the key is the smallest element in the array greater than or equal to the key.
-* **Floor of a Number:**
+3. **Floor of a Number:**
     * Given a sorted array of numbers and a target key, find the floor of the key in the array. The floor of the key is the greatest element in the array smaller than or equal to the key.
-* **Next Letter:**
+4. **Next Letter:**
     * Given a sorted array of lowercase letters `letters` and a target letter `target`, find the smallest element in the array that is larger than the given target. Letters also wrap around.
 
 ## Medium to Hard Difficulty
 
-* **Find First and Last Position of Element in Sorted Array:**
+1. **Find First and Last Position of Element in Sorted Array:**
     * Given an array of integers `nums` sorted in non-decreasing order, find the starting and ending position of a given `target` value.
     * If `target` is not found in the array, return `[-1, -1]`.
-* **Search in a Sorted Array of Unknown Size:**
+2. **Search in a Sorted Array of Unknown Size:**
     * Given an integer array sorted in ascending order, write a function to search `target` in `nums`. However, the size of the array is unknown to you. You may only access the array using an `ArrayReader` interface, where `ArrayReader.get(k)` returns the element of the array at index `k` (0-indexed).
-* **Search in Rotated Sorted Array:**
+3. **Search in Rotated Sorted Array:**
     * Given a rotated sorted array `nums`, find the index of a given `target` value.
     * You may assume no duplicate exists in the array.
-* **Search in Rotated Sorted Array II:**
+4. **Search in Rotated Sorted Array II:**
     * This is the same as above, but now, there are duplicates allowed in the array.
-* **Find Peak Element:**
+5. **Find Peak Element:**
     * A peak element is an element that is strictly greater than its neighbors. Given an integer array `nums`, find a peak element, and return its index. The array may contain multiple peaks, in that case return the index to any of the peaks is fine.
-* **Find the Smallest Letter Greater Than Target:**
+6. **Find the Smallest Letter Greater Than Target:**
     * Given a sorted array of characters letters and a target character target, find the smallest character in the array that is larger than target.
 
 ## Tips for Practice

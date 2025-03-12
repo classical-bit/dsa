@@ -2,15 +2,15 @@
 
 ## Easy to Medium Difficulty
 
-* **Kth Largest Element in an Array:**
+1. **Kth Largest Element in an Array:**
     * Given an integer array `nums` and an integer `k`, return the `k`th largest element in the array.
     * Note that it is the `k`th largest element in the sorted order, not the `k`th distinct element.
-* **K Closest Points to Origin:**
+2. **K Closest Points to Origin:**
     * Given an array of `points` where `points[i] = [xi, yi]` represents a point on the X-Y plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`.
     * The distance between two points on the X-Y plane is the Euclidean distance.
-* **Top K Frequent Elements:**
+3. **Top K Frequent Elements:**
     * Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in any order.
-* **Kth Largest Element in a Stream:**
+4. **Kth Largest Element in a Stream:**
     * Design a class to find the `k`th largest element in a stream. Note that it is the `k`th largest element in the sorted order, not the `k`th distinct element.
     * Implement the `KthLargest` class:
         * `KthLargest(int k, int[] nums)` Initializes the object with the integer `k` and the stream `nums`.
@@ -18,19 +18,19 @@
 
 ## Medium to Hard Difficulty
 
-* **Top K Frequent Words:**
+1. **Top K Frequent Words:**
     * Given an array of strings `words` and an integer `k`, return the `k` most frequent strings.
     * Return the answer sorted by the frequency from highest to lowest. Sort the words with the same frequency by their lexicographical order.
-* **Find K Closest Elements:**
+2. **Find K Closest Elements:**
     * Given a sorted integer array `arr`, two integers `k` and `x`, return the `k` closest integers to `x` in the array. The result should also be sorted in ascending order.
     * An integer `a` is closer to `x` than an integer `b` if:
         * `|a - x| < |b - x|`, or
         * `|a - x| == |b - x|` and `a < b`.
-* **Connect Ropes to Minimize Cost:**
+3. **Connect Ropes to Minimize Cost:**
     * Given `n` ropes of different lengths, we need to connect these ropes into one rope. The cost to connect two ropes is equal to the sum of their lengths. We need to connect the ropes with minimum cost.
-* **Frequency Sort:**
+4. **Frequency Sort:**
     * Given an array of integers `nums`, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.
-* **Task Scheduler:**
+5. **Task Scheduler:**
     * Given a characters array `tasks`, representing the tasks a CPU needs to do, where each letter represents a different task. Tasks could be done in any order unless there is a cooling period `n`.
     * Return the least number of units of times that the CPU will take to finish all the given tasks.
 

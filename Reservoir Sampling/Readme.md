@@ -2,7 +2,7 @@
 
 ## Easy to Medium Difficulty
 
-* **Random Pick Index:**
+1. **Random Pick Index:**
     * Given an array of integers `nums`, design a data structure to pick a random index of the given target number.
     * Implement the `Solution` class:
         * `Solution(int[] nums)` Initializes the object with the array `nums`.
@@ -10,12 +10,12 @@
 
 ## Medium to Hard Difficulty
 
-* **Linked List Random Node:**
+1. **Linked List Random Node:**
     * Given a singly linked list, return a random node's value from the linked list.
     * Implement the `Solution` class:
         * `Solution(ListNode head)` Initializes the object with the head of the singly-linked list `head`.
         * `int getRandom()` Returns a random node's value from the linked list. Each node must have the same probability of being chosen.
-* **Random Pick with Weight:**
+2. **Random Pick with Weight:**
     * You are given a 0-indexed array of positive integers `w` representing the weights of `n` indices.
     * Choose an index in the range `[0, n - 1]` (inclusive) with probability proportional to its weight.
     * Implement the `Solution` class:

@@ -2,24 +2,24 @@
 
 ## Easy to Medium Difficulty
 
-* **Cyclic Sort:**
+1. **Cyclic Sort:**
     * Given an array `nums` containing `n` distinct numbers in the range `[1, n]`, sort it in-place using the Cyclic Sort algorithm.
-* **Find the Missing Number:**
+2. **Find the Missing Number:**
     * Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
-* **Find All Numbers Disappeared in an Array:**
+3. **Find All Numbers Disappeared in an Array:**
     * Given an array `nums` of `n` integers where `nums[i]` is in the range `[1, n]`, return an array of all the integers in the range `[1, n]` that do not appear in `nums`.
-* **Find the Duplicate Number:**
+4. **Find the Duplicate Number:**
     * Given an array `nums` containing `n + 1` integers where each integer is in the range `[1, n]` inclusive.
     * There is only **one repeated number** in `nums`, return *this repeated number*.
     * You must solve the problem without modifying the array `nums` and uses only constant extra space. (Cyclic sort is one way to solve this, but other solutions exist also.)
 
 ## Medium to Hard Difficulty
 
-* **Find All Duplicates in an Array:**
+1. **Find All Duplicates in an Array:**
     * Given an array `nums` of `n` integers where each integer is in the range `[1, n]`, return an array of all the integers that appear twice.
-* **First Missing Positive:**
+2. **First Missing Positive:**
     * Given an unsorted integer array `nums`, return the smallest missing positive integer.
-* **Set Mismatch:**
+3. **Set Mismatch:**
     * You are given an integer array `nums` where `nums[i]` is in the range `[1, n]`. You have one element of `nums` repeated exactly once, while an element in the range `[1, n]` is missing.
     * Return an array `[repeated, missing]` where `repeated` is the repeated number and `missing` is the missing number.
 

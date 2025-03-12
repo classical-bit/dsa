@@ -2,38 +2,38 @@
 
 ## Easy to Medium Difficulty
 
-* **Number of Islands (DFS/BFS):**
+1. **Number of Islands (DFS/BFS):**
     * Given an `m x n` 2D binary grid `grid` which represents a map of `'1'`s (land) and `'0'`s (water), return the number of islands.
     * An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.
-* **Flood Fill (DFS/BFS):**
+2. **Flood Fill (DFS/BFS):**
     * An image is represented by an `m x n` integer grid `image` where `image[i][j]` represents the pixel value of the image.
     * Given three integers `sr`, `sc`, and `color` also given an integer `newColor`, perform a flood fill on the image starting from the pixel `image[sr][sc]`.
     * To perform a flood fill, consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels with `newColor`.
     * Return the modified image.
-* **Clone Graph (BFS/DFS):**
+3. **Clone Graph (BFS/DFS):**
     * Given a reference of a node in a connected undirected graph.
     * Return a deep copy (clone) of the graph.
-* **Binary Tree Level Order Traversal (BFS):**
+4. **Binary Tree Level Order Traversal (BFS):**
     * While technically a tree problem, it can be viewed as a graph problem, and is a good use of BFS.
     * Given the `root` of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
 
 ## Medium to Hard Difficulty
 
-* **Dijkstra's Algorithm (Shortest Path):**
+1. **Dijkstra's Algorithm (Shortest Path):**
     * Given a weighted graph, find the shortest paths from a single source node to all other nodes.
-* **Bellman-Ford Algorithm (Shortest Path with Negative Weights):**
+2. **Bellman-Ford Algorithm (Shortest Path with Negative Weights):**
     * Given a weighted graph, find the shortest paths from a single source node to all other nodes, even if there are negative edge weights.
-* **Topological Sort (DAG):**
+3. **Topological Sort (DAG):**
     * Given a directed acyclic graph (DAG), find a linear ordering of its nodes such that for every directed edge from node A to node B, node A comes before node B in the ordering.
-* **Minimum Spanning Tree (MST - Prim's or Kruskal's):**
+4. **Minimum Spanning Tree (MST - Prim's or Kruskal's):**
     * Given a connected, undirected, weighted graph, find a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized.
-* **Word Ladder (BFS):**
+5. **Word Ladder (BFS):**
     * Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, find the length of the shortest transformation sequence from `beginWord` to `endWord`, such that:
         * Only one letter can be changed at a time.
         * Each transformed word must exist in the word list.
-* **Course Schedule II (Topological Sort):**
+6. **Course Schedule II (Topological Sort):**
     * Return the ordering of courses you should take to finish all courses. If it is impossible to finish all courses, return an empty array.
-* **Bipartite Graph (BFS/DFS):**
+7. **Bipartite Graph (BFS/DFS):**
     * Given an undirected graph, determine if it is bipartite.
     * A bipartite graph is a graph whose vertices can be divided into two disjoint and independent sets U and V such that every edge connects a vertex in U to one in V.
 
