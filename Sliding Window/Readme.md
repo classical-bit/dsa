@@ -5,7 +5,7 @@
 1. [x] [**Maximum Sum Subarray of Size K:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/Maximum%20Sum%20Subarray%20of%20Size%20K)
     * Given an array of integers and a window size `k`, find the maximum sum of any contiguous subarray of size `k`.
     * This is a fundamental sliding window problem.
-2. [ ] **Longest Substring with K Distinct Characters:**
+2. [ ] [**Longest Substring with K Distinct Characters:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/Longest%20Substring%20with%20K%20Distinct%20Characters)
     * Given a string and an integer `k`, find the length of the longest substring with at most `k` distinct characters.
 3. [ ] **Longest Substring Without Repeating Characters:**
     * Given a string, find the length of the longest substring without repeating characters.
