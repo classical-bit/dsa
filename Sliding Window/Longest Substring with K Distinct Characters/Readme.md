@@ -64,3 +64,5 @@ Given a string `s` and an integer `k`, find the length of the longest substring 
     * `"accc"`
 * **Longest Substring:** `"accc"`
 * **Length:** `4`
+
+## [Jump To Solutions :bowtie:](https://github.com/classical-bit/dsa/blob/main/Sliding%20Window/Longest%20Substring%20with%20K%20Distinct%20Characters/index.js)

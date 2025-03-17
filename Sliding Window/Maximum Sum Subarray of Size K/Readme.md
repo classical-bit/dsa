@@ -54,4 +54,4 @@ Find the contiguous subarray (a sequence of adjacent elements) of a given array,
 * Slide Window: `[-4, -5]` Sum = `-9`
 * **Maximum Sum:** `-3`
 
-## [Jump To Solutions :bowtie:](https://github.com/classical-bit/dsa/blob/main/Sliding%20Window/%20Maximum%20Sum%20Subarray%20of%20Size%20K/index.js)
+## [Jump To Solutions :bowtie:](https://github.com/classical-bit/dsa/blob/main/Sliding%20Window/Maximum%20Sum%20Subarray%20of%20Size%20K/index.js)
