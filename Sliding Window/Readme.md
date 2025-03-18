@@ -9,7 +9,7 @@
     * Given a string and an integer `k`, find the length of the longest substring with at most `k` distinct characters.
 3. [x] [**Longest Substring Without Repeating Characters:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/Longest%20Substring%20Without%20Repeating%20Characters)
     * Given a string, find the length of the longest substring without repeating characters.
-4. [ ] **Minimum Size Subarray Sum:**
+4. [x] [**Minimum Size Subarray Sum:**](https://github.com/classical-bit/dsa/tree/main/Sliding%20Window/Minimum%20Size%20Subarray%20Sum)
     * Given an array of positive integers and a target sum `s`, find the minimum length of a contiguous subarray whose sum is greater than or equal to `s`.
 5. [ ] **Fruits into Baskets:**
     * Given an array of characters where each character represents a type of fruit, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only condition is that each basket can have only one type of fruit. You can start with any fruit, but once you’ve started, you can’t skip a fruit.
